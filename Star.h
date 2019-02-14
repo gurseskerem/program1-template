@@ -5,7 +5,7 @@ class Star{
 	private:
         
         int current_planets;
-        int next_id;
+        //int next_id;
 	public:
         
         Star();

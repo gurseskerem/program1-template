@@ -4,7 +4,7 @@
 Star::Star() {
   Planet * planets = NULL;
     	this-> current_planets=0;
-    	this-> next_id=0;
+    	//this-> next_id=0;
   }
 int Star::addPlanet(){
   
@@ -17,7 +17,7 @@ int Star::addPlanet(){
 	for (int i=0; i<current_planets; i++){
 		**new_array[i]=planets[i];
 	}
-	Planet New(rand() % 3000,next_id);
+	Planet New(rand() % 3000);
 	**new_array[getCurrentNumPlanets()+1] = New;
 	current_planets = current_planets + 1;
 	//delete[] planets;

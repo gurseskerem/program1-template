@@ -1,7 +1,6 @@
 #include <iostream>
 #include "Planet.h"
-Planet::Planet(int distance, int id){
-  this->id = id;
+Planet::Planet(int distance){
   //this->distance = distance;                                                                                                                          
   pos = (rand() % 360);
   char type[3] = {'h','g','r'};

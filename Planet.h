@@ -13,7 +13,7 @@ class Planet{
   Planet planets[];
   Planet *getPlanet(int);
   int orbit();
-  int getID() {return id;};
+  long getID() {return id;};
   int getDistance(){return distance;};
   int getPos(){return pos;};
   char getType(){return typep;};
